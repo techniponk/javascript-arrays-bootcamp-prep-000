@@ -23,8 +23,7 @@ var tomatoSauceIngredients = [
     ]
     
 function addElementToBeginningOfArray (array,element) {
-  var newArray = [element,...array]
-  return newArray
+  return [element,...array]
 }
 
 function destructivelyAddElementToBeginningOfArray (array, element) {
@@ -33,8 +32,7 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
 }
 
 function addElementToEndOfArray (array,element) {
-  var newArray = [...array, element]
-  return newArray
+  return [...array, element]
 }
 
 function destructivelyAddElementToEndOfArray (array, element) {
